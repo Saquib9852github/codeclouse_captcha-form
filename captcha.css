@@ -1,0 +1,72 @@
+body {
+   background-color: #eee;
+  margin: 0;
+  padding: 0; 
+} 
+.root {
+  height: auto;
+  width: 60%;
+  margin: auto;
+  border: 3px solid;
+  margin-top: 100px;
+  border-bottom-color: blue;
+  border-left-color: aqua;
+  border-top-color: green;
+  font-weight: bold;
+  border-top-right-radius: 150px;
+  border-bottom-left-radius: 150px;
+  background-color: snow;
+}
+form {
+  height: 70vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.userInput {
+  height: 50px;
+  width: 500px;
+  /* border: 1px solid; */
+  align-items: center;
+  display: flex;
+  font-weight: bold;
+  margin-top: 20px;
+  justify-content: space-between;
+}
+.userInput input {
+  height: 30px;
+  width: 70%;
+  font-weight: bold;
+  color: #454545;
+}
+button {
+  height: 40px;
+  width: 150px;
+  margin-top: 30px;
+  background-color: aqua;
+  border-radius: 10px;
+}
+button:hover {
+  background-color: seagreen;
+}
+.userInput2 {
+  height: 80px;
+  width: 500px;
+  align-items: center;
+  display: flex;
+  font-weight: bold;
+  margin-top: 20px;
+  justify-content: space-between;
+}
+
+.userInput2 input {
+  height: 30px;
+  font-weight: bold;
+  color: #454545;
+}
+
+#captcha {
+  color: green;
+}
